@@ -1,4 +1,4 @@
-package deepak.com.Onboarding.authentication.service;
+package deepak.com.Onboarding.ServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -6,11 +6,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import deepak.com.Onboarding.DTO.LoginReqDto;
 import deepak.com.Onboarding.generic.ResponseDto;
 import deepak.com.Onboarding.generic.ResponseMessage;
 
+@Service
 public class AuthenticationServiceImpl implements AuthenticationService {
 
 	private static final Logger logger = LoggerFactory.getLogger(AuthenticationServiceImpl.class);

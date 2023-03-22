@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import deepak.com.Onboarding.DTO.LoginReqDto;
 import deepak.com.Onboarding.DTO.RegisterUserReqDto;
 import deepak.com.Onboarding.DTO.VerifyOtpReqDto;
+import deepak.com.Onboarding.ServiceImpl.AuthenticationService;
 import deepak.com.Onboarding.ServiceImpl.OnboardingService;
-import deepak.com.Onboarding.authentication.service.AuthenticationService;
 import deepak.com.Onboarding.generic.ResponseDto;
 import deepak.com.Onboarding.generic.ResponseMessage;
 
