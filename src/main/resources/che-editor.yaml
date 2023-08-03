@@ -1,5 +1,5 @@
-id: che-incubator/che-idea/latest
-inline:
+version: 2.0.0
+editors:
   schemaVersion: 2.1.0
   metadata:
     name: JetBrains IntelliJ IDEA Community IDE
